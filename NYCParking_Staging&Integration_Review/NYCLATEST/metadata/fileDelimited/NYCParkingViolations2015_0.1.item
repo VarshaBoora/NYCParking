@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection Encoding="UTF-8" FieldSeparatorType="Tabulation" FieldSeparatorValue="&quot;\t&quot;" FilePath="C:/Program Files/ProjectNYC/Parking_Violations_Issued_-_Fiscal_Year_2015.tsv" FirstLineCaption="true" Format="WINDOWS" HeaderValue="1" LimitValue="1000000" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" UseHeader="true" UseLimit="true" dataPackage="_44JZYCLzEeu2_K1WKvdczQ" name="NYCParkingViolations2015" supplierDependency="_cqOp6jdyEeu7oddLY096Ug" xmi:id="_44IyUSLzEeu2_K1WKvdczQ"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_44IyUSLzEeu2_K1WKvdczQ" name="default" xmi:id="_44JZYCLzEeu2_K1WKvdczQ">
+    <ownedElement id="_jq2VMCLzEeu2_K1WKvdczQ" label="metadata" xmi:id="_44JZYSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature id="Summons_Number" label="Summons_Number" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Long" xmi:id="_44JZYiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqOp6zdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Plate_ID" label="Plate_ID" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZYyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqPQ_DdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Registration_State" label="Registration_State" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZZCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqPRMjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Plate_Type" label="Plate_Type" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZZSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqPRZTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Issue_Date" label="Issue_Date" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZZiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqPReDdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_Code" label="Violation_Code" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZZyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqPRgzdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Vehicle_Body_Type" label="Vehicle_Body_Type" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZaCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqPRkDdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Vehicle_Make" label="Vehicle_Make" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZaSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqPRnTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Issuing_Agency" label="Issuing_Agency" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZaiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqPRqjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Street_Code1" label="Street_Code1" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZayLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqPRtTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Street_Code2" label="Street_Code2" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZbCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqPRwDdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Street_Code3" label="Street_Code3" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZbSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqPRyzdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Vehicle_Expiration_Date" label="Vehicle_Expiration_Date" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZbiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqPR6jdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_Location" label="Violation_Location" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZbyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4AzdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_Precinct" label="Violation_Precinct" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZcCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqP4DjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Issuer_Precinct" label="Issuer_Precinct" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZcSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqP4GTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Issuer_Code" label="Issuer_Code" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZciLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqP4JDdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Issuer_Command" label="Issuer_Command" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZcyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4MTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Issuer_Squad" label="Issuer_Squad" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZdCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4PjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_Time" label="Violation_Time" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZdSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4SzdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Time_First_Observed" label="Time_First_Observed" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZdiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4WDdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_County" label="Violation_County" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZdyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4ZTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_In_Front_Of_Or_Opposite" label="Violation_In_Front_Of_Or_Opposite" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZeCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4cjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="House_Number" label="House_Number" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZeSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4fzdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Street_Name" label="Street_Name" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZeiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4jDdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Intersecting_Street" label="Intersecting_Street" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZeyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4mTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Date_First_Observed" label="Date_First_Observed" length="22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZfCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4pjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Law_Section" label="Law_Section" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZfSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqP4sTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Sub_Division" label="Sub_Division" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZfiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4vjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_Legal_Code" label="Violation_Legal_Code" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZfyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4yzdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Days_Parking_In_Effect" label="Days_Parking_In_Effect" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZgCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP42DdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="From_Hours_In_Effect" label="From_Hours_In_Effect" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZgSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP45TdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="To_Hours_In_Effect" label="To_Hours_In_Effect" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZgiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP48jdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Vehicle_Color" label="Vehicle_Color" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZgyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP4_zdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Unregistered_Vehicle_" label="Unregistered_Vehicle_" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZhCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqP5CjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Vehicle_Year" label="Vehicle_Year" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZhSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqP5FTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Meter_Number" label="Meter_Number" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZhiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP5IjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Feet_From_Curb" label="Feet_From_Curb" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_44JZhyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Interval" xmi:id="_cqP5LTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_Post_Code" label="Violation_Post_Code" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZiCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP5OjdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Violation_Description" label="Violation_Description" length="30" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZiSLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP5RzdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="No_Standing_or_Stopping_Violation" label="No_Standing_or_Stopping_Violation" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZiiLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP5VDdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Hydrant_Violation" label="Hydrant_Violation" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZiyLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP5YTdyEeu7oddLY096Ug"/>
+      </feature>
+      <feature id="Double_Parking_Violation" label="Double_Parking_Violation" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_44JZjCLzEeu2_K1WKvdczQ" xsi:type="TalendMetadata:MetadataColumn">
+        <taggedValue tag="Content Type" value="Nominal" xmi:id="_cqP5bjdyEeu7oddLY096Ug"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.objectmodel.core:Dependency kind="Usage" supplier="_44IyUSLzEeu2_K1WKvdczQ" xmi:id="_cqOp6jdyEeu7oddLY096Ug">
+    <client href="../../TDQ_Data Profiling/Analyses/Job_NYC2015_0.1.ana#_3IOoIDdxEeu7oddLY096Ug" xsi:type="dataquality.analysis:Analysis"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9bbe30c4-32de-4b9b-a520-156eead74874"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Z/w3TIfeFyN+bkleSu8a88WxDGsq94BQeQWLCQGCdKx/nk8M5nGnezQ6i024Xzj6RgWfo2Fm2d+k
+9TVuW38j0Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ff32a944-8868-464b-873c-58ba4afc56a4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>saukEf+3MaekMUf1MweYD+pilqBxIkaSVkYMnXrRmyM3iQyW6zOBt8Miftb0+l5uQA4MhqJUVbK+
+VYGnvlJ/dA==</DigestValue></Reference></SignedInfo><SignatureValue>4M6J8hK1jlHpsvBK/6ZX73ZQbx7ksGVGRbbGVg6r64y4Chc5sO0BsdtX7wzjhX/b6QCWF96dE11q
+OF6yy5HiwbOMh73AzxfTCQ2XmjoEbT7feEkGJ98mMbqsWyicgbnR6UwAMg5GpH452XbQsZOy4NXB
+GNR+x9WrUwYedOoeG3yKIVhdybykYul0e8SxAdSiE/LM1tjIkNQQLlMJnJ3DhhB5ApLd8BAogoyO
++lYfablBGAXROg6/ihtQyQqbPJUKXdO5M3Pp7ozB29K+JqdwI2YneZwfMRPBkAyxPswFds9KTpDI
+cDYm09dZX469HZV0AaQTFfjUxV64YNKW8814hg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ff32a944-8868-464b-873c-58ba4afc56a4" Target="#_9bbe30c4-32de-4b9b-a520-156eead74874"><Timestamp>2020-12-06 03:23:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
